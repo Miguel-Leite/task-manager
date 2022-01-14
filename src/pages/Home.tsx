@@ -18,7 +18,7 @@ export function Home () {
                             <li> <NavLink to='/'> Resources </NavLink> </li>
                         </ul>
 
-                        <NavLink to='/' className='auth'>
+                        <NavLink to='/auth' className='auth-btn'>
                             Sign In        
                         </NavLink>
                     </nav>
