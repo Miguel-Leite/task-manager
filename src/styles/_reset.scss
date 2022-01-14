@@ -1,0 +1,24 @@
+:root {
+    --primary: #2E2938;
+    --secundary: #B4ACF9;
+    --light: rgba(255, 255, 255, 0.8);
+    --dark: #363041;
+}
+
+
+ul, 
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+*::before,
+*::after,
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
