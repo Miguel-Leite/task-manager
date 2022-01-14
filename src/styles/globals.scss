@@ -1,21 +1,6 @@
-*::before,
-*::after,
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import 'reset';
 
-@import 'colors';
 
-ul, 
-li {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-}
 
 .header {
     width: 100%;
@@ -59,7 +44,7 @@ a {
             }
         }
 
-        .auth {
+        .auth-btn {
             padding: 10px 30px;
             background-color: var(--secundary);
             color: var(--primary);
