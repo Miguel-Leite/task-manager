@@ -1,0 +1,96 @@
+
+.auth {
+    width: 100%;
+    height: auto;
+    background-color: var(--primary);
+    padding-top: 188px;
+
+    h1 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 37px;
+        color: var(--light);
+        margin-bottom: 42px;
+        span {
+            color: var(--secundary);
+        }
+    }
+
+    .social {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        border: 0;
+        outline: none;
+        background-color: var(--dark);
+        border-radius: 6px;
+        color: var(--light);
+        transition: filter .3s;
+        &:hover {
+            filter: brightness(0.8);
+        }
+        &:nth-child(2) {
+            margin-bottom: 12px;
+        }
+        .icon {
+            width: 64px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background: var(--secundary);
+            color: var(--primary);
+            margin-right: 18px;
+            font-weight: bold;
+            border-radius: 6px 0px 0px 6px;
+            font-size: 22px;
+        }
+    }
+
+    form {
+        margin-top: 42px;
+
+        .form-group:nth-child(2){
+            margin-top: 47px;
+        }
+
+        label {
+            color: var(--secundary);
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 18px;
+        }
+
+        input {
+            width: 100%;
+            height: 60px;
+            background-color: var(--dark);
+            color: var(--light);
+            border: 0;
+            &:focus {
+                background-color: var(--dark);
+                color: var(--light);
+                box-shadow: none;
+            }
+        }
+
+        button {
+            height: 60px;
+            width: 100%;
+            background: var(--secundary);
+            color: var(--primary);
+            border-radius: 6px;
+            margin-top: 18px;   
+            margin-bottom: 188px; 
+            border: 0;
+            outline: none;  
+            transition: filter .3s;
+            &:hover {
+                filter: brightness(0.8);
+            }
+        }
+    }
+}
